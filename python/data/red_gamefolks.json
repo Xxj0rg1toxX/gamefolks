@@ -1,0 +1,550 @@
+{
+  "nombre": "Gamefolks",
+  "descripcion": "Red social para gamers. Vértices = usuarios; arcos = 'sigue a' (dirigido), peso = interacciones por semana, capacidad = interacciones simultáneas antes del throttling.",
+  "bodega": {
+    "nombre": "Bodega Gamefolks",
+    "localidad": "Chapinero",
+    "lat": 4.6486,
+    "lon": -74.0628
+  },
+  "usuarios": [
+    {
+      "id": "U1",
+      "usuario": "Juana_Gamer",
+      "localidad": "Usaquén",
+      "lat": 4.703,
+      "lon": -74.03,
+      "juego": "Valorant",
+      "bio": "Duelista de corazón. Cooperativos los domingos.",
+      "x": 180,
+      "y": 190
+    },
+    {
+      "id": "U2",
+      "usuario": "Camilo92",
+      "localidad": "Suba",
+      "lat": 4.741,
+      "lon": -74.084,
+      "juego": "Minecraft",
+      "bio": "Construyo granjas automáticas y a veces castillos.",
+      "x": 180,
+      "y": 470
+    },
+    {
+      "id": "U3",
+      "usuario": "Valentina_Streams",
+      "localidad": "Teusaquillo",
+      "lat": 4.644,
+      "lon": -74.093,
+      "juego": "Valorant",
+      "bio": "Streamer de Valorant. En vivo martes y jueves.",
+      "x": 430,
+      "y": 330
+    },
+    {
+      "id": "U4",
+      "usuario": "AndresPlay",
+      "localidad": "Kennedy",
+      "lat": 4.63,
+      "lon": -74.153,
+      "juego": "EA FC 25",
+      "bio": "Ultimate Team y torneos de barrio.",
+      "x": 700,
+      "y": 540
+    },
+    {
+      "id": "U5",
+      "usuario": "SofiaGG",
+      "localidad": "Engativá",
+      "lat": 4.709,
+      "lon": -74.112,
+      "juego": "League of Legends",
+      "bio": "Support main. GG siempre.",
+      "x": 700,
+      "y": 200
+    },
+    {
+      "id": "U6",
+      "usuario": "MateoRush",
+      "localidad": "Fontibón",
+      "lat": 4.678,
+      "lon": -74.142,
+      "juego": "Fortnite",
+      "bio": "Rush B... digo, rush a la zona.",
+      "x": 430,
+      "y": 90
+    },
+    {
+      "id": "U7",
+      "usuario": "LauraFPS",
+      "localidad": "Bosa",
+      "lat": 4.615,
+      "lon": -74.186,
+      "juego": "Counter-Strike 2",
+      "bio": "AWP y café.",
+      "x": 700,
+      "y": 370
+    },
+    {
+      "id": "U8",
+      "usuario": "NicoBuilds",
+      "localidad": "Barrios Unidos",
+      "lat": 4.668,
+      "lon": -74.076,
+      "juego": "Minecraft",
+      "bio": "Tutoriales de builds y redstone.",
+      "x": 430,
+      "y": 600
+    },
+    {
+      "id": "U9",
+      "usuario": "CamilaRPG",
+      "localidad": "Puente Aranda",
+      "lat": 4.615,
+      "lon": -74.115,
+      "juego": "Baldur's Gate 3",
+      "bio": "Rolera. Cada partida es una novela.",
+      "x": 90,
+      "y": 690
+    },
+    {
+      "id": "U10",
+      "usuario": "DiegoSpeedrun",
+      "localidad": "San Cristóbal",
+      "lat": 4.57,
+      "lon": -74.09,
+      "juego": "Celeste",
+      "bio": "Récords personales y glitches.",
+      "x": 290,
+      "y": 700
+    }
+  ],
+  "relaciones": [
+    {
+      "origen": "U1",
+      "destino": "U2",
+      "peso": 8,
+      "capacidad": 12
+    },
+    {
+      "origen": "U2",
+      "destino": "U3",
+      "peso": 15,
+      "capacidad": 20
+    },
+    {
+      "origen": "U3",
+      "destino": "U1",
+      "peso": 5,
+      "capacidad": 6
+    },
+    {
+      "origen": "U4",
+      "destino": "U3",
+      "peso": 12,
+      "capacidad": 9
+    },
+    {
+      "origen": "U5",
+      "destino": "U3",
+      "peso": 9,
+      "capacidad": 14
+    },
+    {
+      "origen": "U6",
+      "destino": "U3",
+      "peso": 6,
+      "capacidad": 5
+    },
+    {
+      "origen": "U7",
+      "destino": "U3",
+      "peso": 10,
+      "capacidad": 18
+    },
+    {
+      "origen": "U3",
+      "destino": "U8",
+      "peso": 4,
+      "capacidad": 7
+    },
+    {
+      "origen": "U8",
+      "destino": "U4",
+      "peso": 7,
+      "capacidad": 10
+    },
+    {
+      "origen": "U9",
+      "destino": "U10",
+      "peso": 11,
+      "capacidad": 16
+    },
+    {
+      "origen": "U10",
+      "destino": "U9",
+      "peso": 11,
+      "capacidad": 16
+    },
+    {
+      "origen": "U1",
+      "destino": "U3",
+      "peso": 6,
+      "capacidad": 25
+    },
+    {
+      "origen": "U2",
+      "destino": "U8",
+      "peso": 5,
+      "capacidad": 3
+    },
+    {
+      "origen": "U3",
+      "destino": "U2",
+      "peso": 3,
+      "capacidad": 22
+    }
+  ],
+  "eventos": [
+    {
+      "id": "E1",
+      "nombre": "Torneo Valorant",
+      "juego": "Valorant",
+      "participantes": [
+        "U3"
+      ],
+      "servidor": "S-LATAM-2"
+    },
+    {
+      "id": "E2",
+      "nombre": "Speedrun Marathon",
+      "juego": "Celeste",
+      "participantes": [
+        "U10",
+        "U9"
+      ],
+      "servidor": "S-LATAM-3"
+    },
+    {
+      "id": "E3",
+      "nombre": "Charla RPG",
+      "juego": "Baldur's Gate 3",
+      "participantes": [
+        "U9",
+        "U3"
+      ],
+      "servidor": "S-LATAM-4"
+    },
+    {
+      "id": "E4",
+      "nombre": "Taller de Builds",
+      "juego": "Minecraft",
+      "participantes": [
+        "U8",
+        "U4"
+      ],
+      "servidor": "S-LATAM-1"
+    },
+    {
+      "id": "E5",
+      "nombre": "Torneo Cooperativo",
+      "juego": "Valorant",
+      "participantes": [
+        "U1",
+        "U2"
+      ],
+      "servidor": "S-LATAM-1"
+    },
+    {
+      "id": "E6",
+      "nombre": "Maratón Retro",
+      "juego": "Celeste",
+      "participantes": [
+        "U10",
+        "U7"
+      ],
+      "servidor": "S-LATAM-5"
+    },
+    {
+      "id": "E7",
+      "nombre": "Q&A Comunidad",
+      "juego": "General",
+      "participantes": [
+        "U3",
+        "U1"
+      ],
+      "servidor": "S-LATAM-6"
+    },
+    {
+      "id": "E8",
+      "nombre": "Subasta de Skins",
+      "juego": "Counter-Strike 2",
+      "participantes": [
+        "U4",
+        "U5"
+      ],
+      "servidor": "S-LATAM-7"
+    }
+  ],
+  "ganadores_fest": [
+    "U1",
+    "U3",
+    "U4",
+    "U5",
+    "U7",
+    "U9",
+    "U10"
+  ],
+  "catalogo": [
+    {
+      "id": "V001",
+      "nombre": "Halo",
+      "popularidad": 85000
+    },
+    {
+      "id": "V002",
+      "nombre": "Halo 2",
+      "popularidad": 62000
+    },
+    {
+      "id": "V003",
+      "nombre": "Halo Infinite",
+      "popularidad": 78000
+    },
+    {
+      "id": "V004",
+      "nombre": "Halo Wars",
+      "popularidad": 21000
+    },
+    {
+      "id": "V005",
+      "nombre": "Half-Life 2",
+      "popularidad": 90000
+    },
+    {
+      "id": "V006",
+      "nombre": "Gears of War",
+      "popularidad": 55000
+    },
+    {
+      "id": "V007",
+      "nombre": "Marvel Rivals",
+      "popularidad": 97000
+    },
+    {
+      "id": "V008",
+      "nombre": "Valorant",
+      "popularidad": 210000
+    },
+    {
+      "id": "V009",
+      "nombre": "Deadlock",
+      "popularidad": 48000
+    },
+    {
+      "id": "V010",
+      "nombre": "Metroid",
+      "popularidad": 39000
+    },
+    {
+      "id": "V011",
+      "nombre": "Metroid Prime",
+      "popularidad": 52000
+    },
+    {
+      "id": "V012",
+      "nombre": "Mario",
+      "popularidad": 180000
+    },
+    {
+      "id": "V013",
+      "nombre": "Mario Kart",
+      "popularidad": 175000
+    },
+    {
+      "id": "V014",
+      "nombre": "Silksong",
+      "popularidad": 145000
+    },
+    {
+      "id": "V015",
+      "nombre": "Super Meat Boy",
+      "popularidad": 26000
+    },
+    {
+      "id": "V016",
+      "nombre": "Yakuza: Like a Dragon",
+      "popularidad": 47000
+    },
+    {
+      "id": "V017",
+      "nombre": "Yakuza 0",
+      "popularidad": 58000
+    },
+    {
+      "id": "V018",
+      "nombre": "Hades",
+      "popularidad": 88000
+    },
+    {
+      "id": "V019",
+      "nombre": "Hades 2",
+      "popularidad": 96000
+    },
+    {
+      "id": "V020",
+      "nombre": "Hogwarts Legacy",
+      "popularidad": 132000
+    },
+    {
+      "id": "V021",
+      "nombre": "Tekken 8",
+      "popularidad": 76000
+    },
+    {
+      "id": "V022",
+      "nombre": "Palworld",
+      "popularidad": 165000
+    },
+    {
+      "id": "V023",
+      "nombre": "Elden Ring",
+      "popularidad": 240000
+    },
+    {
+      "id": "V024",
+      "nombre": "Cyberpunk 2077",
+      "popularidad": 205000
+    },
+    {
+      "id": "V025",
+      "nombre": "Counter-Strike 2",
+      "popularidad": 260000
+    },
+    {
+      "id": "V026",
+      "nombre": "Terraria",
+      "popularidad": 120000
+    },
+    {
+      "id": "V027",
+      "nombre": "Animal Crossing",
+      "popularidad": 150000
+    },
+    {
+      "id": "V028",
+      "nombre": "Undertale",
+      "popularidad": 68000
+    },
+    {
+      "id": "V029",
+      "nombre": "Red Dead Redemption II",
+      "popularidad": 230000
+    },
+    {
+      "id": "V030",
+      "nombre": "Yakuza Kiwami 1",
+      "popularidad": 33000
+    },
+    {
+      "id": "V031",
+      "nombre": "League of Legends",
+      "popularidad": 320000
+    },
+    {
+      "id": "V032",
+      "nombre": "World of Warcraft",
+      "popularidad": 190000
+    },
+    {
+      "id": "V033",
+      "nombre": "Counter Strike",
+      "popularidad": 95000
+    },
+    {
+      "id": "V034",
+      "nombre": "REPO",
+      "popularidad": 41000
+    },
+    {
+      "id": "V035",
+      "nombre": "Fortnite",
+      "popularidad": 350000
+    },
+    {
+      "id": "V036",
+      "nombre": "Pokemon",
+      "popularidad": 300000
+    },
+    {
+      "id": "V037",
+      "nombre": "FIFA 25",
+      "popularidad": 220000
+    },
+    {
+      "id": "V038",
+      "nombre": "Roblox",
+      "popularidad": 340000
+    },
+    {
+      "id": "V039",
+      "nombre": "Minecraft",
+      "popularidad": 400000
+    },
+    {
+      "id": "V040",
+      "nombre": "Smash Bros",
+      "popularidad": 160000
+    },
+    {
+      "id": "V041",
+      "nombre": "Sims 3",
+      "popularidad": 70000
+    },
+    {
+      "id": "V042",
+      "nombre": "Sims 4",
+      "popularidad": 210000
+    },
+    {
+      "id": "V043",
+      "nombre": "Sims 2",
+      "popularidad": 45000
+    },
+    {
+      "id": "V044",
+      "nombre": "Grand Theft Auto V",
+      "popularidad": 380000
+    },
+    {
+      "id": "V045",
+      "nombre": "Grand Theft Auto San Adreas",
+      "popularidad": 140000
+    },
+    {
+      "id": "V046",
+      "nombre": "Grand Theft Auto Vice City",
+      "popularidad": 110000
+    },
+    {
+      "id": "V047",
+      "nombre": "Dark Souls",
+      "popularidad": 125000
+    },
+    {
+      "id": "V048",
+      "nombre": "The Witcher 3: Wild Hunt",
+      "popularidad": 215000
+    },
+    {
+      "id": "V049",
+      "nombre": "The Witcher 2: Assasins of Kings Enhanced",
+      "popularidad": 22000
+    },
+    {
+      "id": "V050",
+      "nombre": "Assassin's Creed",
+      "popularidad": 155000
+    }
+  ]
+}

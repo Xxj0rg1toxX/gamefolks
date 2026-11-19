@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gamefolks · Red social gamer</title>
+  <link rel="stylesheet" href="static/styles.css?v=2">
+</head>
+<body>
+  <!-- Pantalla de carga: Python (Pyodide) arranca dentro del navegador -->
+  <div id="cargando" class="cargando" role="status">
+    <div class="cargando-caja">
+      <span class="logo">🎮 Gamefolks</span>
+      <div class="rueda" aria-hidden="true"></div>
+      <p id="cargando-texto">Cargando Python en tu navegador…</p>
+      <p class="suave" style="font-size:.85rem">La primera vez tarda unos segundos; después queda en caché.</p>
+    </div>
+  </div>
+
+  <!-- Pantalla de entrada (login / registro) -->
+  <section id="pantalla-entrada" class="entrada oculto">
+    <div class="tarjeta">
+      <span class="logo">🎮 Gamefolks</span>
+      <p class="suave" style="text-align:center;margin:4px 0 18px">La red social para gamers de Bogotá</p>
+      <div class="pestanas">
+        <button id="tab-login" class="activa" type="button">Iniciar sesión</button>
+        <button id="tab-registro" type="button">Crear cuenta</button>
+      </div>
+      <form id="form-login">
+        <label for="login-usuario">Usuario</label>
+        <input id="login-usuario" autocomplete="username" required>
+        <label for="login-clave">Contraseña</label>
+        <input id="login-clave" type="password" autocomplete="current-password" required>
+        <button class="btn" style="width:100%;margin-top:16px">Entrar</button>
+      </form>
+      <form id="form-registro" class="oculto">
+        <label for="reg-usuario">Usuario (sin espacios)</label>
+        <input id="reg-usuario" maxlength="20" required>
+        <label for="reg-clave">Contraseña (mínimo 6)</label>
+        <input id="reg-clave" type="password" minlength="6" required>
+        <label for="reg-juego">Juego favorito</label>
+        <input id="reg-juego" maxlength="40" placeholder="Ej. Valorant">
+        <label for="reg-localidad">Localidad (para enviarte premios)</label>
+        <select id="reg-localidad" required></select>
+        <button class="btn" style="width:100%;margin-top:16px">Crear cuenta</button>
+      </form>
+      <p class="demo">Prueba con <b>Juana_Gamer</b> (moderadora) o <b>Valentina_Streams</b> · clave <b>gamefolks123</b></p>
+      <p class="suave" style="text-align:center;font-size:.8rem;margin:10px 0 0">Versión web estática: tus datos se guardan solo en este navegador.
+        <a href="#" id="restablecer">Restablecer datos de la demo</a></p>
+    </div>
+  </section>
+
+  <!-- Aplicacion -->
+  <div id="pantalla-app" class="oculto">
+    <header class="barra">
+      <a href="#/inicio" class="logo">🎮 Gamefolks</a>
+      <div class="buscador">
+        <input id="buscador" placeholder="Buscar gamers o juegos (Trie)…" autocomplete="off" aria-label="Buscar">
+        <div id="resultados" class="resultados oculto"></div>
+      </div>
+      <div class="yo">
+        <a id="enlace-yo" href="#/inicio" class="fila"></a>
+        <button id="salir" class="btn sec chico" type="button">Salir</button>
+      </div>
+    </header>
+    <div class="contenedor">
+      <nav class="menu" id="menu">
+        <a href="#/inicio" data-ruta="inicio"><span class="icono">🏠</span><span class="texto-menu">Inicio</span></a>
+        <a href="#/explorar" data-ruta="explorar"><span class="icono">🧭</span><span class="texto-menu">Explorar</span></a>
+        <a href="#/conexiones" data-ruta="conexiones"><span class="icono">🔗</span><span class="texto-menu">Conexiones</span></a>
+        <a href="#/eventos" data-ruta="eventos"><span class="icono">📅</span><span class="texto-menu">Eventos</span></a>
+        <a href="#/premios" data-ruta="premios"><span class="icono">🎁</span><span class="texto-menu">Premios</span></a>
+        <a href="#/laboratorio" data-ruta="laboratorio"><span class="icono">🧪</span><span class="texto-menu">Laboratorio</span></a>
+        <a href="#/moderacion" data-ruta="moderacion" id="menu-moderacion" class="oculto"><span class="icono">🛡️</span><span class="texto-menu">Moderación</span></a>
+        <a href="#/perfil" data-ruta="perfil"><span class="icono">👤</span><span class="texto-menu">Mi perfil</span></a>
+      </nav>
+      <main id="vista"></main>
+      <aside class="lateral" id="lateral"></aside>
+    </div>
+  </div>
+
+  <div id="modal" class="fondo-modal oculto"><div class="tarjeta modal" id="modal-contenido"></div></div>
+  <div id="aviso" class="aviso oculto"></div>
+  <script src="pyodide/pyodide.js"></script>
+  <script src="static/puente.js?v=2"></script>
+  <script src="static/app.js?v=2"></script>
+</body>
+</html>

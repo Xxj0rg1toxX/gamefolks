@@ -1,0 +1,352 @@
+[
+ {
+  "id_reporte": "R001",
+  "gravedad": 78,
+  "descripcion": "Contenido sexual con menores implícito"
+ },
+ {
+  "id_reporte": "R002",
+  "gravedad": 60,
+  "descripcion": "Bullying en comentarios"
+ },
+ {
+  "id_reporte": "R003",
+  "gravedad": 41,
+  "descripcion": "Clickbait enganoso"
+ },
+ {
+  "id_reporte": "R004",
+  "gravedad": 21,
+  "descripcion": "Titulo enganoso menor"
+ },
+ {
+  "id_reporte": "R005",
+  "gravedad": 85,
+  "descripcion": "Contenido sexual no consentido"
+ },
+ {
+  "id_reporte": "R006",
+  "gravedad": 18,
+  "descripcion": "Etiquetado incorrecto"
+ },
+ {
+  "id_reporte": "R007",
+  "gravedad": 72,
+  "descripcion": "Acoso severo a otro usuario"
+ },
+ {
+  "id_reporte": "R008",
+  "gravedad": 98,
+  "descripcion": "Incitación a la autolesión"
+ },
+ {
+  "id_reporte": "R009",
+  "gravedad": 19,
+  "descripcion": "Etiquetado incorrecto"
+ },
+ {
+  "id_reporte": "R010",
+  "gravedad": 62,
+  "descripcion": "Uso de hacks o trampas confirmado"
+ },
+ {
+  "id_reporte": "R011",
+  "gravedad": 96,
+  "descripcion": "Contenido violento explícito"
+ },
+ {
+  "id_reporte": "R012",
+  "gravedad": 67,
+  "descripcion": "Discurso de odio"
+ },
+ {
+  "id_reporte": "R013",
+  "gravedad": 99,
+  "descripcion": "Amenazas directas de muerte"
+ },
+ {
+  "id_reporte": "R014",
+  "gravedad": 15,
+  "descripcion": "Miniatura no relacionada con el video"
+ },
+ {
+  "id_reporte": "R015",
+  "gravedad": 29,
+  "descripcion": "Clickbait enganoso"
+ },
+ {
+  "id_reporte": "R016",
+  "gravedad": 100,
+  "descripcion": "Amenazas directas de muerte"
+ },
+ {
+  "id_reporte": "R017",
+  "gravedad": 91,
+  "descripcion": "Amenazas directas de muerte"
+ },
+ {
+  "id_reporte": "R018",
+  "gravedad": 7,
+  "descripcion": "Etiquetado incorrecto"
+ },
+ {
+  "id_reporte": "R019",
+  "gravedad": 20,
+  "descripcion": "Categoria de contenido mal asignada"
+ },
+ {
+  "id_reporte": "R020",
+  "gravedad": 31,
+  "descripcion": "Publicidad no autorizada"
+ },
+ {
+  "id_reporte": "R021",
+  "gravedad": 82,
+  "descripcion": "Contenido sexual con menores implícito"
+ },
+ {
+  "id_reporte": "R022",
+  "gravedad": 56,
+  "descripcion": "Uso de hacks o trampas confirmado"
+ },
+ {
+  "id_reporte": "R023",
+  "gravedad": 17,
+  "descripcion": "Comentario grosero aislado"
+ },
+ {
+  "id_reporte": "R024",
+  "gravedad": 37,
+  "descripcion": "Publicidad no autorizada"
+ },
+ {
+  "id_reporte": "R025",
+  "gravedad": 87,
+  "descripcion": "Amenazas directas de muerte"
+ },
+ {
+  "id_reporte": "R026",
+  "gravedad": 25,
+  "descripcion": "Suplantación de identidad leve"
+ },
+ {
+  "id_reporte": "R027",
+  "gravedad": 92,
+  "descripcion": "Discurso de odio extremo"
+ },
+ {
+  "id_reporte": "R028",
+  "gravedad": 15,
+  "descripcion": "Categoria de contenido mal asignada"
+ },
+ {
+  "id_reporte": "R029",
+  "gravedad": 8,
+  "descripcion": "Titulo enganoso menor"
+ },
+ {
+  "id_reporte": "R030",
+  "gravedad": 76,
+  "descripcion": "Doxxing (exposición de datos personales)"
+ },
+ {
+  "id_reporte": "R031",
+  "gravedad": 64,
+  "descripcion": "Estafa / phishing"
+ },
+ {
+  "id_reporte": "R032",
+  "gravedad": 68,
+  "descripcion": "Acoso severo a otro usuario"
+ },
+ {
+  "id_reporte": "R033",
+  "gravedad": 90,
+  "descripcion": "Incitación a la autolesión"
+ },
+ {
+  "id_reporte": "R034",
+  "gravedad": 50,
+  "descripcion": "Acoso a otro usuario"
+ },
+ {
+  "id_reporte": "R035",
+  "gravedad": 12,
+  "descripcion": "Miniatura no relacionada con el video"
+ },
+ {
+  "id_reporte": "R036",
+  "gravedad": 83,
+  "descripcion": "Discurso de odio"
+ },
+ {
+  "id_reporte": "R037",
+  "gravedad": 60,
+  "descripcion": "Robo de contenido sin atribución"
+ },
+ {
+  "id_reporte": "R038",
+  "gravedad": 32,
+  "descripcion": "Clickbait enganoso"
+ },
+ {
+  "id_reporte": "R039",
+  "gravedad": 82,
+  "descripcion": "Discurso de odio"
+ },
+ {
+  "id_reporte": "R040",
+  "gravedad": 38,
+  "descripcion": "Suplantación de identidad leve"
+ },
+ {
+  "id_reporte": "R041",
+  "gravedad": 94,
+  "descripcion": "Contenido violento explícito"
+ },
+ {
+  "id_reporte": "R042",
+  "gravedad": 54,
+  "descripcion": "Acoso a otro usuario"
+ },
+ {
+  "id_reporte": "R043",
+  "gravedad": 32,
+  "descripcion": "Clickbait enganoso"
+ },
+ {
+  "id_reporte": "R044",
+  "gravedad": 27,
+  "descripcion": "Publicidad no autorizada"
+ },
+ {
+  "id_reporte": "R045",
+  "gravedad": 69,
+  "descripcion": "Contenido sexual con menores implícito"
+ },
+ {
+  "id_reporte": "R046",
+  "gravedad": 93,
+  "descripcion": "Amenazas directas de muerte"
+ },
+ {
+  "id_reporte": "R047",
+  "gravedad": 20,
+  "descripcion": "Etiquetado incorrecto"
+ },
+ {
+  "id_reporte": "R048",
+  "gravedad": 76,
+  "descripcion": "Acoso severo a otro usuario"
+ },
+ {
+  "id_reporte": "R049",
+  "gravedad": 64,
+  "descripcion": "Uso de hacks o trampas confirmado"
+ },
+ {
+  "id_reporte": "R050",
+  "gravedad": 43,
+  "descripcion": "Suplantación de identidad leve"
+ },
+ {
+  "id_reporte": "R051",
+  "gravedad": 49,
+  "descripcion": "Robo de contenido sin atribución"
+ },
+ {
+  "id_reporte": "R052",
+  "gravedad": 13,
+  "descripcion": "Titulo enganoso menor"
+ },
+ {
+  "id_reporte": "R053",
+  "gravedad": 97,
+  "descripcion": "Amenazas directas de muerte"
+ },
+ {
+  "id_reporte": "R054",
+  "gravedad": 93,
+  "descripcion": "Discurso de odio extremo"
+ },
+ {
+  "id_reporte": "R055",
+  "gravedad": 52,
+  "descripcion": "Robo de contenido sin atribución"
+ },
+ {
+  "id_reporte": "R056",
+  "gravedad": 33,
+  "descripcion": "Suplantación de identidad leve"
+ },
+ {
+  "id_reporte": "R057",
+  "gravedad": 69,
+  "descripcion": "Acoso severo a otro usuario"
+ },
+ {
+  "id_reporte": "R058",
+  "gravedad": 97,
+  "descripcion": "Contenido violento explícito"
+ },
+ {
+  "id_reporte": "R059",
+  "gravedad": 65,
+  "descripcion": "Contenido sexual con menores implícito"
+ },
+ {
+  "id_reporte": "R060",
+  "gravedad": 67,
+  "descripcion": "Discurso de odio"
+ },
+ {
+  "id_reporte": "R061",
+  "gravedad": 49,
+  "descripcion": "Estafa / phishing"
+ },
+ {
+  "id_reporte": "R062",
+  "gravedad": 15,
+  "descripcion": "Miniatura no relacionada con el video"
+ },
+ {
+  "id_reporte": "R063",
+  "gravedad": 32,
+  "descripcion": "Lenguaje ofensivo moderado"
+ },
+ {
+  "id_reporte": "R064",
+  "gravedad": 70,
+  "descripcion": "Acoso severo a otro usuario"
+ },
+ {
+  "id_reporte": "R065",
+  "gravedad": 31,
+  "descripcion": "Lenguaje ofensivo moderado"
+ },
+ {
+  "id_reporte": "R066",
+  "gravedad": 86,
+  "descripcion": "Contenido violento explícito"
+ },
+ {
+  "id_reporte": "R067",
+  "gravedad": 39,
+  "descripcion": "Spam"
+ },
+ {
+  "id_reporte": "R068",
+  "gravedad": 43,
+  "descripcion": "Clickbait enganoso"
+ },
+ {
+  "id_reporte": "R069",
+  "gravedad": 73,
+  "descripcion": "Amenazas veladas"
+ },
+ {
+  "id_reporte": "R070",
+  "gravedad": 46,
+  "descripcion": "Bullying en comentarios"
+ }
+]
